@@ -1,6 +1,6 @@
 # 🚀 Isdako 
 
-#Stuffs Used
+Stuffs Used
 
  - Vue JS
  - Sing App Vue
