@@ -1,11 +1,10 @@
 <template>
 <div :class="{root: true, chatOpen, sidebarClose, sidebarStatic}">
   <Sidebar />
-  <Helper />
   <div class="wrap">
     <Header />
     <Chat />
-    <v-touch class="content" @swipeleft="handleSwipe" @swiperight="handleSwipe" :swipe-options="{direction: 'horizontal', threshold: 100}">
+    <v-touch class="content" :swipe-options="{direction: 'horizontal', threshold: 100}">
       <router-view />
       <footer class="contentFooter">
         Sing Vue Version - Made by <a href="https://flatlogic.com" rel="nofollow noopener noreferrer" target="_blank">Flatlogic</a>
@@ -21,13 +20,12 @@ import { mapState, mapActions } from 'vuex';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import Header from '@/components/Header/Header';
 import Chat from '@/components/Chat/Chat';
-import Helper from '@/components/Helper/Helper';
 
 import './Layout.scss';
 
 export default {
   name: 'Layout',
-  components: { Sidebar, Header, Chat, Helper },
+  components: { Sidebar, Header, Chat },
   methods: {
     ...mapActions(
       'layout', ['switchSidebar', 'handleSwipe', 'changeSidebarActive'],

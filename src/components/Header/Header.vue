@@ -77,26 +77,7 @@
           <i class="la la-sign-out" /> Log Out
         </b-dropdown-item-button>
       </b-nav-item-dropdown>
-      <b-nav-item>
-        <a class="d-sm-down-none px-2" id="toggle-chat" href="#" @click="toggleChat">
-          <i class="la la-globe" />
-        </a>
-        <div id="chat-notification" class="chatNotification hide">
-          <div class="chatNotificationInner">
-            <h6 class="title d-flex text-white">
-              <span class="thumb-xs">
-                <img src="../../assets/people/a6.jpg" alt=""
-                  class="rounded-circle mr-xs float-left" />
-              </span>
-              Jess Smith
-            </h6>
-            <p class="text">
-              Hi there! <br /> This is a completely new version of Sing App <br />
-              built with <strong class="text-primary">Vue</strong>
-            </p>
-          </div>
-        </div>
-      </b-nav-item>
+
       <b-nav-item class="fs-lg d-md-none">
         <a href="#" @click="toggleChat">
           <span class="rounded rounded-lg bg-gray text-white"><i class="la la-globe" /></span>

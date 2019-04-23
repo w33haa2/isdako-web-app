@@ -12,6 +12,7 @@ import TablesBasicPage from '@/pages/Tables/Basic';
 
 // Maps
 import GoogleMapPage from '@/pages/Maps/Google';
+import MapboxMapPage from '@/pages/Maps/Mapbox/Mapbox';
 
 // Main
 import AnalyticsPage from '@/pages/Dashboard/Dashboard';
@@ -78,6 +79,11 @@ export default new Router({
           path: 'components/maps',
           name: 'GoogleMapPage',
           component: GoogleMapPage,
+        },
+        {
+          path: 'map',
+          name: 'MapboxMapPage',
+          component: MapboxMapPage,
         },
       ],
     },
