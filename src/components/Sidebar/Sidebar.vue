@@ -9,13 +9,6 @@
     </header>
     <ul class="nav">
       <NavLink
-        header="Dashboard"
-        link="/app/dashboard"
-        iconName="flaticon-home"
-        index="dashboard"
-        isHeader
-      />
-      <NavLink
               :activeItem="activeItem"
               header="Geofence Map"
               link="map"

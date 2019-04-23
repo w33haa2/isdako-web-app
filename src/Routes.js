@@ -45,26 +45,26 @@ export default new Router({
       name: 'Layout',
       component: Layout,
       children: [
-        {
-          path: 'dashboard',
-          name: 'AnalyticsPage',
-          component: AnalyticsPage,
-        },
+        // {
+        //   path: 'dashboard',
+        //   name: 'AnalyticsPage',
+        //   component: AnalyticsPage,
+        // },
         {
           path: 'typography',
           name: 'TypographyPage',
           component: TypographyPage,
         },
-        {
-          path: 'components/icons',
-          name: 'IconsPage',
-          component: IconsPage,
-        },
-        {
-          path: 'notifications',
-          name: 'NotificationsPage',
-          component: NotificationsPage,
-        },
+        // {
+        //   path: 'components/icons',
+        //   name: 'IconsPage',
+        //   component: IconsPage,
+        // },
+        // {
+        //   path: 'notifications',
+        //   name: 'NotificationsPage',
+        //   component: NotificationsPage,
+        // },
         {
           path: 'components/charts',
           name: 'ChartsPage',
@@ -75,11 +75,11 @@ export default new Router({
           name: 'TablesBasicPage',
           component: TablesBasicPage,
         },
-        {
-          path: 'components/maps',
-          name: 'GoogleMapPage',
-          component: GoogleMapPage,
-        },
+        // {
+        //   path: 'components/maps',
+        //   name: 'GoogleMapPage',
+        //   component: GoogleMapPage,
+        // },
         {
           path: 'map',
           name: 'MapboxMapPage',

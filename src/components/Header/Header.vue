@@ -15,28 +15,6 @@
           <i class="la la-bars la-lg d-sm-down-none ml-4" />
         </a>
       </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class="la la-refresh la-lg" />
-        </a>
-      </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class="la la-times la-lg" />
-        </a>
-      </b-nav-item>
-    </b-nav>
-    <b-nav>
-      <b-form class="d-sm-down-none ml-5" inline>
-        <b-form-group>
-          <b-input-group class="input-group-no-border">
-            <div class="input-group-addon d-flex align-items-center">
-              <i class="la la-search px-3" />
-            </div>
-            <b-input id="search-input" placeholder="Search Dashboard" />
-          </b-input-group>
-        </b-form-group>
-      </b-form>
     </b-nav>
     <a  class="navbarBrand d-md-none">
       <i class="fa fa-circle text-gray mr-n-sm" />
